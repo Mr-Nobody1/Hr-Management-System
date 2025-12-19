@@ -84,12 +84,10 @@ A multi-agent HR Management System with Python backend and React frontend, power
 ## Project Structure (Worktree)
 
 ```
-hr-management-system/
-│
+.
 ├── README.md                          # Project documentation
-│
+├── .gitignore                         # Git ignore rules
 ├── backend/                           # Python FastAPI Backend
-│   │
 │   ├── main.py                        # FastAPI app, API endpoints
 │   ├── models.py                      # Pydantic models (ChatMessage, etc.)
 │   ├── llm_service.py                 # Gemini LLM integration
@@ -97,7 +95,6 @@ hr-management-system/
 │   ├── translations.py                # Multi-language support (5 langs)
 │   ├── requirements.txt               # Python dependencies
 │   ├── .env                           # Environment variables (API keys)
-│   │
 │   ├── agents/                        # AI Agent implementations
 │   │   ├── __init__.py                # BaseAgent class & utilities
 │   │   ├── orchestrator.py            # Main router agent (LLM-powered)
@@ -108,7 +105,6 @@ hr-management-system/
 │   │   ├── benefits_agent.py          # Insurance, 401k, wellness
 │   │   ├── performance_agent.py       # Reviews, goals, KPIs
 │   │   └── policy_agent.py            # HR policies & FAQs
-│   │
 │   └── data/                          # JSON data files (mock database)
 │       ├── employees.json             # Employee profiles
 │       ├── payslips.json              # Salary & deduction records
@@ -117,30 +113,24 @@ hr-management-system/
 │       ├── benefits.json              # Benefits enrollment
 │       ├── performance.json           # Performance reviews & goals
 │       └── policies.json              # HR policies & FAQs
-│
 └── frontend/                          # React + TypeScript Frontend
-    │
     ├── index.html                     # HTML entry point
     ├── package.json                   # Node dependencies
     ├── vite.config.ts                 # Vite configuration
     ├── tailwind.config.js             # Tailwind CSS config
     ├── tsconfig.json                  # TypeScript config
-    │
     └── src/
         ├── main.tsx                   # React entry point
         ├── App.tsx                    # Main app with routing
         ├── index.css                  # Global styles & animations
-        │
         ├── components/                # React components
         │   ├── ChatInterface.tsx      # Chat UI with messages
         │   ├── MessageBubble.tsx      # Individual message display
         │   ├── Sidebar.tsx            # Quick actions & agent status
         │   ├── ThemeToggle.tsx        # Dark/Light mode switch
         │   └── LanguageSelector.tsx   # Language dropdown
-        │
         ├── contexts/                  # React contexts
         │   └── LanguageContext.tsx    # Language state management
-        │
         └── hooks/                     # Custom React hooks
             └── useTheme.ts            # Theme management hook
 ```
