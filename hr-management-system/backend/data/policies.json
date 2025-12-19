@@ -1,0 +1,110 @@
+{
+  "policies": [
+    {
+      "id": "POL001",
+      "category": "Remote Work",
+      "title": "Work From Home Policy",
+      "summary": "Employees may work from home up to 3 days per week with manager approval.",
+      "content": "Our flexible work policy allows employees to work remotely up to 3 days per week. Requirements: 1) Maintain regular working hours (9 AM - 5 PM local time), 2) Be available for video calls, 3) Ensure stable internet connection, 4) Complete all deliverables on time. Remote work must be pre-approved by your direct manager. Core office days are Tuesday and Thursday when all team members should be present.",
+      "effective_date": "2024-01-01",
+      "last_updated": "2024-06-15",
+      "keywords": ["wfh", "remote", "work from home", "hybrid", "flexible"]
+    },
+    {
+      "id": "POL002",
+      "category": "Dress Code",
+      "title": "Dress Code Policy",
+      "summary": "Business casual attire is required. Casual Fridays allow jeans and company t-shirts.",
+      "content": "Our dress code is business casual Monday through Thursday. This includes: collared shirts, blouses, slacks, khakis, and closed-toe shoes. Avoid: ripped jeans, shorts, flip-flops, and overly casual attire. On Fridays, casual dress is permitted including jeans and company-branded t-shirts. Client meetings require business professional attire regardless of the day.",
+      "effective_date": "2023-01-01",
+      "last_updated": "2024-01-10",
+      "keywords": ["dress", "attire", "clothing", "casual", "professional"]
+    },
+    {
+      "id": "POL003",
+      "category": "Leave",
+      "title": "Leave Policy",
+      "summary": "Employees receive 15 annual leave days, 10 sick days, and 3 personal days per year.",
+      "content": "Annual Leave: 15 days per year, accrued monthly (1.25 days/month). Unused days carry over up to 5 days. Sick Leave: 10 days per year for illness or medical appointments. Doctor's note required for 3+ consecutive days. Personal Leave: 3 days for personal matters. Leave requests must be submitted at least 2 weeks in advance for planned absences. Emergency leave requires notification within 2 hours of shift start.",
+      "effective_date": "2024-01-01",
+      "last_updated": "2024-03-20",
+      "keywords": ["leave", "vacation", "sick", "pto", "time off", "holiday"]
+    },
+    {
+      "id": "POL004",
+      "category": "Expense",
+      "title": "Expense Reimbursement Policy",
+      "summary": "Business expenses are reimbursed within 14 days upon receipt submission.",
+      "content": "Employees may claim reimbursement for approved business expenses. Categories: Travel (flights, hotels, ground transport), Meals (up to $50/day during travel), Equipment (with pre-approval), Professional Development (courses, certifications). Submit expenses within 30 days via the expense portal with original receipts. Manager approval required for amounts over $100. Reimbursement processed within 14 business days.",
+      "effective_date": "2023-06-01",
+      "last_updated": "2024-08-15",
+      "keywords": ["expense", "reimbursement", "travel", "receipt", "claim"]
+    },
+    {
+      "id": "POL005",
+      "category": "Conduct",
+      "title": "Code of Conduct",
+      "summary": "Professional behavior, respect, and integrity are expected from all employees.",
+      "content": "All employees must: 1) Treat colleagues with respect and dignity, 2) Maintain confidentiality of company information, 3) Avoid conflicts of interest, 4) Report harassment or unethical behavior, 5) Use company resources responsibly. Violations may result in disciplinary action including termination. Report concerns to HR or use the anonymous ethics hotline.",
+      "effective_date": "2022-01-01",
+      "last_updated": "2024-02-28",
+      "keywords": ["conduct", "behavior", "ethics", "harassment", "respect"]
+    },
+    {
+      "id": "POL006",
+      "category": "Benefits",
+      "title": "Benefits Enrollment Policy",
+      "summary": "New hires must enroll in benefits within 30 days. Open enrollment occurs annually in November.",
+      "content": "New employees must complete benefits enrollment within 30 days of start date. Available benefits: Health Insurance (PPO/HMO options), Dental & Vision, 401(k) with 4% company match, Life Insurance, FSA/HSA accounts. Annual open enrollment period is November 1-30. Changes outside enrollment period only permitted for qualifying life events (marriage, birth, etc.).",
+      "effective_date": "2024-01-01",
+      "last_updated": "2024-11-01",
+      "keywords": ["benefits", "insurance", "health", "401k", "enrollment"]
+    },
+    {
+      "id": "POL007",
+      "category": "Technology",
+      "title": "IT Security Policy",
+      "summary": "Strong passwords, 2FA, and VPN usage are mandatory for all employees.",
+      "content": "Security requirements: 1) Passwords must be 12+ characters with mixed case, numbers, and symbols, 2) Two-factor authentication required for all systems, 3) VPN must be used when working remotely, 4) Report suspicious emails to security@company.com, 5) Lock computers when away from desk, 6) No unauthorized software installation. Password resets every 90 days. Violations may result in access revocation.",
+      "effective_date": "2023-09-01",
+      "last_updated": "2024-09-15",
+      "keywords": ["security", "password", "vpn", "it", "technology", "computer"]
+    },
+    {
+      "id": "POL008",
+      "category": "Performance",
+      "title": "Performance Review Policy",
+      "summary": "Performance reviews are conducted bi-annually in June and December.",
+      "content": "All employees receive formal performance reviews every 6 months (June and December). Review process: 1) Self-assessment submission, 2) Peer feedback collection, 3) Manager evaluation, 4) One-on-one discussion, 5) Goal setting for next period. Ratings scale: 1-5 (Needs Improvement to Exceptional). High performers may be eligible for promotions and bonuses. Continuous feedback is encouraged throughout the year.",
+      "effective_date": "2024-01-01",
+      "last_updated": "2024-05-20",
+      "keywords": ["performance", "review", "evaluation", "rating", "goals"]
+    }
+  ],
+  "faqs": [
+    {
+      "question": "How do I request time off?",
+      "answer": "Submit a leave request through the HR portal at least 2 weeks in advance. Your manager will approve or discuss alternatives with you."
+    },
+    {
+      "question": "What is the company's overtime policy?",
+      "answer": "Non-exempt employees receive 1.5x pay for hours over 40/week. Overtime must be pre-approved by your manager."
+    },
+    {
+      "question": "How do I update my personal information?",
+      "answer": "Update your details in the HR portal under 'My Profile'. Changes to banking or tax information require additional verification."
+    },
+    {
+      "question": "What holidays does the company observe?",
+      "answer": "We observe 10 paid holidays: New Year's Day, MLK Day, Presidents' Day, Memorial Day, Independence Day, Labor Day, Columbus Day, Veterans Day, Thanksgiving (2 days), and Christmas."
+    },
+    {
+      "question": "How do I report a workplace concern?",
+      "answer": "Contact HR directly, speak with your manager, or use the anonymous ethics hotline at 1-800-555-0199."
+    },
+    {
+      "question": "What training opportunities are available?",
+      "answer": "We offer LinkedIn Learning access, tuition reimbursement up to $5,000/year, and internal mentorship programs. Discuss with your manager to create a development plan."
+    }
+  ]
+}

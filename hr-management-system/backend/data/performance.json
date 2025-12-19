@@ -1,0 +1,172 @@
+{
+  "EMP001": {
+    "employee_name": "John Smith",
+    "current_rating": 4.2,
+    "last_review_date": "2024-06-15",
+    "next_review_date": "2025-06-15",
+    "reviews": [
+      {
+        "period": "2024 H1",
+        "rating": 4.2,
+        "reviewer": "Sarah Johnson",
+        "summary": "John consistently delivers high-quality code and mentors junior developers effectively.",
+        "strengths": ["Technical expertise", "Team collaboration", "Problem solving"],
+        "areas_for_improvement": ["Documentation", "Presentation skills"],
+        "date": "2024-06-15"
+      },
+      {
+        "period": "2023 H2",
+        "rating": 4.0,
+        "reviewer": "Sarah Johnson",
+        "summary": "Strong performance throughout the quarter. Led the API migration project successfully.",
+        "strengths": ["Project leadership", "Code quality"],
+        "areas_for_improvement": ["Time estimation"],
+        "date": "2023-12-20"
+      }
+    ],
+    "goals": [
+      {
+        "id": "G001",
+        "title": "Complete AWS Certification",
+        "description": "Obtain AWS Solutions Architect certification",
+        "due_date": "2025-03-31",
+        "status": "in-progress",
+        "progress": 65
+      },
+      {
+        "id": "G002",
+        "title": "Mentor 2 Junior Developers",
+        "description": "Provide regular mentorship sessions and code reviews",
+        "due_date": "2025-06-30",
+        "status": "in-progress",
+        "progress": 50
+      },
+      {
+        "id": "G003",
+        "title": "Reduce API Response Time",
+        "description": "Optimize backend APIs to achieve <100ms response time",
+        "due_date": "2025-02-28",
+        "status": "completed",
+        "progress": 100
+      }
+    ],
+    "kpis": {
+      "code_quality_score": 92,
+      "on_time_delivery": 88,
+      "team_collaboration": 95,
+      "innovation": 85
+    },
+    "recent_feedback": [
+      {
+        "from": "Sarah Johnson",
+        "date": "2024-11-15",
+        "type": "praise",
+        "message": "Excellent work on the authentication module refactoring!"
+      },
+      {
+        "from": "Emily Davis",
+        "date": "2024-10-28",
+        "type": "thanks",
+        "message": "Thanks for helping me debug the API issue. Learned a lot!"
+      }
+    ]
+  },
+  "EMP002": {
+    "employee_name": "Sarah Johnson",
+    "current_rating": 4.5,
+    "last_review_date": "2024-06-20",
+    "next_review_date": "2025-06-20",
+    "reviews": [
+      {
+        "period": "2024 H1",
+        "rating": 4.5,
+        "reviewer": "Michael Brown",
+        "summary": "Sarah demonstrates exceptional leadership and has grown the engineering team successfully.",
+        "strengths": ["Leadership", "Strategic thinking", "Team building"],
+        "areas_for_improvement": ["Delegation"],
+        "date": "2024-06-20"
+      }
+    ],
+    "goals": [
+      {
+        "id": "G001",
+        "title": "Implement Agile Methodology",
+        "description": "Fully transition team to Scrum methodology",
+        "due_date": "2025-01-31",
+        "status": "completed",
+        "progress": 100
+      },
+      {
+        "id": "G002",
+        "title": "Reduce Team Attrition",
+        "description": "Keep team attrition below 10% annually",
+        "due_date": "2025-12-31",
+        "status": "in-progress",
+        "progress": 80
+      }
+    ],
+    "kpis": {
+      "team_performance": 94,
+      "project_delivery": 91,
+      "employee_satisfaction": 88,
+      "budget_adherence": 96
+    },
+    "recent_feedback": [
+      {
+        "from": "Michael Brown",
+        "date": "2024-11-10",
+        "type": "recognition",
+        "message": "Great job leading the product launch. The team execution was flawless."
+      }
+    ]
+  },
+  "EMP003": {
+    "employee_name": "Emily Davis",
+    "current_rating": 3.8,
+    "last_review_date": "2024-06-18",
+    "next_review_date": "2025-06-18",
+    "reviews": [
+      {
+        "period": "2024 H1",
+        "rating": 3.8,
+        "reviewer": "Sarah Johnson",
+        "summary": "Emily shows great potential and has improved significantly since joining.",
+        "strengths": ["Eagerness to learn", "Attention to detail"],
+        "areas_for_improvement": ["Debugging skills", "System design"],
+        "date": "2024-06-18"
+      }
+    ],
+    "goals": [
+      {
+        "id": "G001",
+        "title": "Learn React Advanced Patterns",
+        "description": "Complete advanced React course and apply to projects",
+        "due_date": "2025-04-30",
+        "status": "in-progress",
+        "progress": 40
+      },
+      {
+        "id": "G002",
+        "title": "Contribute to Open Source",
+        "description": "Make 5 contributions to company open source projects",
+        "due_date": "2025-06-30",
+        "status": "pending",
+        "progress": 0
+      }
+    ],
+    "kpis": {
+      "code_quality_score": 78,
+      "on_time_delivery": 85,
+      "learning_progress": 90,
+      "teamwork": 88
+    },
+    "recent_feedback": [
+      {
+        "from": "John Smith",
+        "date": "2024-11-20",
+        "type": "encouragement",
+        "message": "You're picking up things really fast. Keep up the good work!"
+      }
+    ]
+  }
+}

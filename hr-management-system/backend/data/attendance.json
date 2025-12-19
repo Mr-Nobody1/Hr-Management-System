@@ -1,0 +1,134 @@
+{
+  "EMP001": {
+    "employee_id": "EMP001",
+    "employee_name": "John Smith",
+    "work_schedule": {
+      "start_time": "09:00",
+      "end_time": "17:00",
+      "work_days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]
+    },
+    "records": [
+      {
+        "date": "2024-12-05",
+        "clock_in": "08:55",
+        "clock_out": "17:15",
+        "hours_worked": 8.33,
+        "status": "present",
+        "overtime": 0.33
+      },
+      {
+        "date": "2024-12-04",
+        "clock_in": "09:10",
+        "clock_out": "17:30",
+        "hours_worked": 8.33,
+        "status": "late",
+        "overtime": 0.33
+      },
+      {
+        "date": "2024-12-03",
+        "clock_in": "08:50",
+        "clock_out": "17:00",
+        "hours_worked": 8.17,
+        "status": "present",
+        "overtime": 0.17
+      },
+      {
+        "date": "2024-12-02",
+        "clock_in": "09:00",
+        "clock_out": "18:00",
+        "hours_worked": 9.0,
+        "status": "present",
+        "overtime": 1.0
+      },
+      {
+        "date": "2024-11-29",
+        "clock_in": "09:05",
+        "clock_out": "17:05",
+        "hours_worked": 8.0,
+        "status": "present",
+        "overtime": 0.0
+      }
+    ],
+    "summary": {
+      "total_days_present": 22,
+      "total_days_late": 2,
+      "total_days_absent": 1,
+      "total_hours_worked": 178.5,
+      "total_overtime": 5.5,
+      "month": "November",
+      "year": 2024
+    }
+  },
+  "EMP002": {
+    "employee_id": "EMP002",
+    "employee_name": "Sarah Johnson",
+    "work_schedule": {
+      "start_time": "08:30",
+      "end_time": "17:30",
+      "work_days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]
+    },
+    "records": [
+      {
+        "date": "2024-12-05",
+        "clock_in": "08:25",
+        "clock_out": "18:00",
+        "hours_worked": 9.58,
+        "status": "present",
+        "overtime": 0.58
+      },
+      {
+        "date": "2024-12-04",
+        "clock_in": "08:30",
+        "clock_out": "17:45",
+        "hours_worked": 9.25,
+        "status": "present",
+        "overtime": 0.25
+      }
+    ],
+    "summary": {
+      "total_days_present": 21,
+      "total_days_late": 0,
+      "total_days_absent": 0,
+      "total_hours_worked": 189.0,
+      "total_overtime": 12.5,
+      "month": "November",
+      "year": 2024
+    }
+  },
+  "EMP003": {
+    "employee_id": "EMP003",
+    "employee_name": "Emily Davis",
+    "work_schedule": {
+      "start_time": "09:00",
+      "end_time": "17:00",
+      "work_days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]
+    },
+    "records": [
+      {
+        "date": "2024-12-05",
+        "clock_in": "09:00",
+        "clock_out": "17:00",
+        "hours_worked": 8.0,
+        "status": "present",
+        "overtime": 0.0
+      },
+      {
+        "date": "2024-12-04",
+        "clock_in": "09:15",
+        "clock_out": "17:15",
+        "hours_worked": 8.0,
+        "status": "late",
+        "overtime": 0.0
+      }
+    ],
+    "summary": {
+      "total_days_present": 20,
+      "total_days_late": 3,
+      "total_days_absent": 2,
+      "total_hours_worked": 160.0,
+      "total_overtime": 2.0,
+      "month": "November",
+      "year": 2024
+    }
+  }
+}

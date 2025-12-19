@@ -1,0 +1,104 @@
+{
+  "EMP001": {
+    "employee_id": "EMP001",
+    "employee_name": "John Smith",
+    "balance": {
+      "annual": 12,
+      "sick": 8,
+      "personal": 3,
+      "used_annual": 8,
+      "used_sick": 2,
+      "used_personal": 2
+    },
+    "requests": [
+      {
+        "id": "LR001",
+        "type": "annual",
+        "start_date": "2024-12-23",
+        "end_date": "2024-12-27",
+        "days": 5,
+        "status": "approved",
+        "reason": "Holiday vacation",
+        "submitted_date": "2024-11-15",
+        "approved_by": "Sarah Johnson",
+        "approved_date": "2024-11-16"
+      },
+      {
+        "id": "LR002",
+        "type": "sick",
+        "start_date": "2024-10-10",
+        "end_date": "2024-10-11",
+        "days": 2,
+        "status": "approved",
+        "reason": "Flu",
+        "submitted_date": "2024-10-10",
+        "approved_by": "Sarah Johnson",
+        "approved_date": "2024-10-10"
+      },
+      {
+        "id": "LR003",
+        "type": "annual",
+        "start_date": "2024-08-05",
+        "end_date": "2024-08-07",
+        "days": 3,
+        "status": "approved",
+        "reason": "Family event",
+        "submitted_date": "2024-07-20",
+        "approved_by": "Sarah Johnson",
+        "approved_date": "2024-07-21"
+      }
+    ]
+  },
+  "EMP002": {
+    "employee_id": "EMP002",
+    "employee_name": "Sarah Johnson",
+    "balance": {
+      "annual": 18,
+      "sick": 10,
+      "personal": 5,
+      "used_annual": 5,
+      "used_sick": 1,
+      "used_personal": 0
+    },
+    "requests": [
+      {
+        "id": "LR004",
+        "type": "annual",
+        "start_date": "2024-12-30",
+        "end_date": "2025-01-03",
+        "days": 5,
+        "status": "pending",
+        "reason": "New Year holiday",
+        "submitted_date": "2024-11-20",
+        "approved_by": null,
+        "approved_date": null
+      }
+    ]
+  },
+  "EMP003": {
+    "employee_id": "EMP003",
+    "employee_name": "Emily Davis",
+    "balance": {
+      "annual": 10,
+      "sick": 8,
+      "personal": 3,
+      "used_annual": 2,
+      "used_sick": 0,
+      "used_personal": 1
+    },
+    "requests": [
+      {
+        "id": "LR005",
+        "type": "personal",
+        "start_date": "2024-11-28",
+        "end_date": "2024-11-28",
+        "days": 1,
+        "status": "approved",
+        "reason": "Personal appointment",
+        "submitted_date": "2024-11-20",
+        "approved_by": "Sarah Johnson",
+        "approved_date": "2024-11-20"
+      }
+    ]
+  }
+}

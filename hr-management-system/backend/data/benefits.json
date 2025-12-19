@@ -1,0 +1,147 @@
+{
+  "packages": {
+    "health_basic": {
+      "id": "health_basic",
+      "name": "Basic Health Plan",
+      "type": "health_insurance",
+      "description": "Basic medical, dental, and vision coverage",
+      "monthly_cost": 200.00,
+      "employer_contribution": 150.00,
+      "employee_cost": 50.00,
+      "coverage": {
+        "medical": "80% coverage after $500 deductible",
+        "dental": "Preventive care 100%, Basic 80%, Major 50%",
+        "vision": "Eye exam covered, $150 allowance for glasses"
+      }
+    },
+    "health_premium": {
+      "id": "health_premium",
+      "name": "Premium Health Plan",
+      "type": "health_insurance",
+      "description": "Comprehensive medical, dental, and vision coverage with lower deductibles",
+      "monthly_cost": 450.00,
+      "employer_contribution": 300.00,
+      "employee_cost": 150.00,
+      "coverage": {
+        "medical": "90% coverage after $250 deductible",
+        "dental": "Preventive care 100%, Basic 90%, Major 70%",
+        "vision": "Eye exam covered, $300 allowance for glasses"
+      }
+    },
+    "retirement_401k": {
+      "id": "retirement_401k",
+      "name": "401(k) Retirement Plan",
+      "type": "retirement",
+      "description": "Tax-advantaged retirement savings with employer matching",
+      "employer_match": "100% match up to 5% of salary",
+      "vesting_schedule": "Immediate vesting for employee contributions, 3-year vesting for employer match"
+    },
+    "life_insurance": {
+      "id": "life_insurance",
+      "name": "Life Insurance",
+      "type": "life_insurance",
+      "description": "Term life insurance coverage",
+      "coverage_amount": "2x annual salary",
+      "monthly_cost": 25.00,
+      "employer_contribution": 25.00,
+      "employee_cost": 0.00
+    },
+    "wellness": {
+      "id": "wellness",
+      "name": "Wellness Program",
+      "type": "wellness",
+      "description": "Gym membership discount and wellness activities",
+      "benefits": [
+        "50% gym membership discount",
+        "Annual health screening",
+        "Mental health support",
+        "Fitness challenges with rewards"
+      ],
+      "monthly_cost": 0.00
+    }
+  },
+  "enrollments": {
+    "EMP001": {
+      "employee_id": "EMP001",
+      "employee_name": "John Smith",
+      "enrolled_benefits": [
+        {
+          "package_id": "health_premium",
+          "enrollment_date": "2022-04-01",
+          "status": "active",
+          "dependents": ["Spouse", "Child"]
+        },
+        {
+          "package_id": "retirement_401k",
+          "enrollment_date": "2022-04-01",
+          "status": "active",
+          "contribution_percent": 5
+        },
+        {
+          "package_id": "life_insurance",
+          "enrollment_date": "2022-04-01",
+          "status": "active"
+        },
+        {
+          "package_id": "wellness",
+          "enrollment_date": "2022-04-01",
+          "status": "active"
+        }
+      ]
+    },
+    "EMP002": {
+      "employee_id": "EMP002",
+      "employee_name": "Sarah Johnson",
+      "enrolled_benefits": [
+        {
+          "package_id": "health_premium",
+          "enrollment_date": "2020-02-01",
+          "status": "active",
+          "dependents": []
+        },
+        {
+          "package_id": "retirement_401k",
+          "enrollment_date": "2020-02-01",
+          "status": "active",
+          "contribution_percent": 8
+        },
+        {
+          "package_id": "life_insurance",
+          "enrollment_date": "2020-02-01",
+          "status": "active"
+        }
+      ]
+    },
+    "EMP003": {
+      "employee_id": "EMP003",
+      "employee_name": "Emily Davis",
+      "enrolled_benefits": [
+        {
+          "package_id": "health_basic",
+          "enrollment_date": "2023-07-01",
+          "status": "active",
+          "dependents": []
+        },
+        {
+          "package_id": "retirement_401k",
+          "enrollment_date": "2023-07-01",
+          "status": "active",
+          "contribution_percent": 3
+        },
+        {
+          "package_id": "wellness",
+          "enrollment_date": "2023-07-01",
+          "status": "active"
+        }
+      ]
+    }
+  },
+  "enrollment_periods": {
+    "open_enrollment": {
+      "start_date": "2024-11-01",
+      "end_date": "2024-11-30",
+      "description": "Annual open enrollment period for 2025 benefits"
+    },
+    "new_hire_window": 30
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "EMP001": {
+    "employee_id": "EMP001",
+    "employee_name": "John Smith",
+    "payslips": [
+      {
+        "month": "November",
+        "year": 2024,
+        "pay_period": "2024-11-01 to 2024-11-30",
+        "gross_salary": 7083.33,
+        "basic_salary": 6000.00,
+        "allowances": {
+          "housing": 800.00,
+          "transport": 200.00,
+          "meal": 83.33
+        },
+        "deductions": {
+          "federal_tax": 1062.50,
+          "state_tax": 354.17,
+          "social_security": 439.17,
+          "medicare": 102.71,
+          "health_insurance": 250.00,
+          "retirement_401k": 354.17
+        },
+        "total_deductions": 2562.72,
+        "net_salary": 4520.61,
+        "payment_date": "2024-11-29",
+        "payment_method": "Direct Deposit"
+      },
+      {
+        "month": "October",
+        "year": 2024,
+        "pay_period": "2024-10-01 to 2024-10-31",
+        "gross_salary": 7083.33,
+        "basic_salary": 6000.00,
+        "allowances": {
+          "housing": 800.00,
+          "transport": 200.00,
+          "meal": 83.33
+        },
+        "deductions": {
+          "federal_tax": 1062.50,
+          "state_tax": 354.17,
+          "social_security": 439.17,
+          "medicare": 102.71,
+          "health_insurance": 250.00,
+          "retirement_401k": 354.17
+        },
+        "total_deductions": 2562.72,
+        "net_salary": 4520.61,
+        "payment_date": "2024-10-31",
+        "payment_method": "Direct Deposit"
+      },
+      {
+        "month": "September",
+        "year": 2024,
+        "pay_period": "2024-09-01 to 2024-09-30",
+        "gross_salary": 7083.33,
+        "basic_salary": 6000.00,
+        "allowances": {
+          "housing": 800.00,
+          "transport": 200.00,
+          "meal": 83.33
+        },
+        "deductions": {
+          "federal_tax": 1062.50,
+          "state_tax": 354.17,
+          "social_security": 439.17,
+          "medicare": 102.71,
+          "health_insurance": 250.00,
+          "retirement_401k": 354.17
+        },
+        "total_deductions": 2562.72,
+        "net_salary": 4520.61,
+        "payment_date": "2024-09-30",
+        "payment_method": "Direct Deposit"
+      }
+    ]
+  },
+  "EMP002": {
+    "employee_id": "EMP002",
+    "employee_name": "Sarah Johnson",
+    "payslips": [
+      {
+        "month": "November",
+        "year": 2024,
+        "pay_period": "2024-11-01 to 2024-11-30",
+        "gross_salary": 10000.00,
+        "basic_salary": 8500.00,
+        "allowances": {
+          "housing": 1000.00,
+          "transport": 300.00,
+          "meal": 200.00
+        },
+        "deductions": {
+          "federal_tax": 1800.00,
+          "state_tax": 600.00,
+          "social_security": 620.00,
+          "medicare": 145.00,
+          "health_insurance": 350.00,
+          "retirement_401k": 500.00
+        },
+        "total_deductions": 4015.00,
+        "net_salary": 5985.00,
+        "payment_date": "2024-11-29",
+        "payment_method": "Direct Deposit"
+      }
+    ]
+  },
+  "EMP003": {
+    "employee_id": "EMP003",
+    "employee_name": "Emily Davis",
+    "payslips": [
+      {
+        "month": "November",
+        "year": 2024,
+        "pay_period": "2024-11-01 to 2024-11-30",
+        "gross_salary": 4583.33,
+        "basic_salary": 4000.00,
+        "allowances": {
+          "housing": 400.00,
+          "transport": 150.00,
+          "meal": 33.33
+        },
+        "deductions": {
+          "federal_tax": 550.00,
+          "state_tax": 183.33,
+          "social_security": 284.17,
+          "medicare": 66.46,
+          "health_insurance": 200.00,
+          "retirement_401k": 183.33
+        },
+        "total_deductions": 1467.29,
+        "net_salary": 3116.04,
+        "payment_date": "2024-11-29",
+        "payment_method": "Direct Deposit"
+      }
+    ]
+  }
+}
